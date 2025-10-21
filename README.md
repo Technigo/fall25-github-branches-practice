@@ -3,7 +3,6 @@
 In this activity, you’ll practise how developers collaborate on GitHub **without being added as collaborators** — just like in open source projects!
 
 You’ll learn how to:
-- **Fork** a repository (make your own copy)
 - **Create a new branch**
 - **Commit and push changes**
 - **Open a Pull Request** to the original repo
@@ -18,11 +17,7 @@ Everyone will add **their own name** to a shared list in the `index.html` file.
 
 ## 🧭 Step-by-step instructions
 
-### 1. Fork this repo
-Click the **“Fork”** button in the top-right corner of this page.  
-This creates a copy of the project in *your* GitHub account.
-
-> 🧠 Think of it as making your own playground where you can experiment safely.
+### 1. Breath
 
 ---
 
