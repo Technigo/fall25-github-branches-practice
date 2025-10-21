@@ -1,12 +1,12 @@
-# 🧑‍💻 Git Collaboration Challenge – Fork + Pull Request
+# 🧑‍💻 Git Collaboration Challenge – Collaborators
 
-In this activity, you’ll practise how developers collaborate on GitHub **without being added as collaborators** — just like in open source projects!
+In this activity, you’ll practise how developers collaborate on GitHub **when being added as collaborators** — just like in a real company!
 
 You’ll learn how to:
 - **Create a new branch**
 - **Commit and push changes**
-- **Open a Pull Request** to the original repo
-
+- **Open a Pull Request** 
+- **Merge PR into main branch** 
 ---
 
 ## 🌟 Your task
@@ -17,15 +17,15 @@ Everyone will add **their own name** to a shared list in the `index.html` file.
 
 ## 🧭 Step-by-step instructions
 
-### 1. Breath
+### 1. Breath 🧘🏼‍♀️
 
 ---
 
-### 2. Clone your fork
-Now, clone *your version* of the repo to your computer:
+### 2. Clone the repo
+Now, clone the repo to your computer:
 
 ```
-git clone https://github.com/YOUR-USERNAME/fall25-github-branches-practice.git
+git clone https://github.com/Technigo/fall25-github-branches-practice.git
 ```
 Then move into the project folder:
 
@@ -39,7 +39,7 @@ cd fall25-github-branches-practice
 Create a new branch for your changes — never work directly on main!
 
 ```
-git checkout -b add-your-name
+git checkout -b your-branch-name
 ```
 
 ---
@@ -59,40 +59,41 @@ Example:
 ---
 
 ### 5. Add, commit and push your changes
+Make sure to push to your branch!
 
 ```
 git add .
 git commit -m "Added my name to the list"
-git push origin add-your-name
+git push origin your-branch-name
 ```
 
 ---
 
 ### 6. Open a Pull Request (PR)
-Go to your fork on GitHub.
+Go to the repo on GitHub.
 
 You’ll see a banner suggesting: “Compare & pull request” – click it.
 
-Make sure the base repo is the original one (not your fork).
+If not, click on the branch tab and finde your brnach in the list of branches.
+Click the three dots to the right of your branch row -> New pull request
 
 Add a title and short description for your PR.
 
 Click Create pull request 🎉
 
-💡 You just asked to merge your changes into the main project — this is exactly how open source collaboration works!
+💡 You just asked to merge your changes into the main branch! DO NOT merge yet.
 
 ---
 
 ### 7. Wait for review and merge
-Your teacher will review and merge your PR into the main repo.
+Your teacher/team will review and merge your PR into the main branch.
 Once merged, your name becomes part of the project!
 
+checkout the main branch, do a git pull and see your changes in the main branch.
 
 ---
 
 ## 💬 What you’ve learned
-✅ The difference between collaborating in a shared repo vs contributing through a fork
-
+✅ How to be added as a collaborator (don't forget that confirmation email 💌)
 ✅ How to create and work on branches safely
-
-✅ How to open a Pull Request and contribute to someone else’s project
+✅ How to open a Pull Request and contribute to the project
